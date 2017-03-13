@@ -9,6 +9,8 @@ package learn.freq04;
 //ps 假设有三层 1-2-4 =124 那么 就等于在下一层等于上一层x10+本层
 //eg 第一层1  第二层1x10+2=12 第三层12x10+4=124
 
+import entity.TreeNode;
+
 public class SumRoottoLeafNumbers {
     int res;  //写在这是成员变量 所有方法都可以操作他 或者你要通过方法传参数的情况
 

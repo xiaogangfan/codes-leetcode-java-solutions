@@ -10,6 +10,8 @@ package learn.freq02;
 
 //设想 这题要是不coding的话,按照正常人的逻辑怎么算呢？ 这么找到这错换的节点呢？
 
+import entity.TreeNode;
+
 //就好比在一个sorted数组里（bst中序遍历就是sorted数组） 如果有2个数位置换过了
 //那么肯定要打破sort （sort状态下 本root肯定大于上一个root） 那么这里本root小于inorder递归的上一个root 肯定就是错的node 
 //有2个node 会打破这点 （）  所以中序遍历+检查 即可

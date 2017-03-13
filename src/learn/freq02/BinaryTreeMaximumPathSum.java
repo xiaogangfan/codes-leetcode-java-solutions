@@ -1,5 +1,7 @@
 package learn.freq02;
 
+import entity.TreeNode;
+
 //找出一个数树的一条path，这条path的node的和为最大值，并且这个path可以从任何一个node开始，/\也可以 （上去再下来也算一条path）
 //只要连着就行
 //左子树的单路就是做root。Left出发 然后到下面path的一条路路径  右子树的单路也是一样

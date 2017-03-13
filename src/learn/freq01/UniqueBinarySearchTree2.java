@@ -1,5 +1,7 @@
 package learn.freq01;
 
+import entity.TreeNode;
+
 import java.util.ArrayList;
 
 //Given n, generate all structurally unique BST's (binary search trees) that store values 1...n

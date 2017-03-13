@@ -8,6 +8,8 @@ package learn.freq03;
 //Given 1->4->3->2->5->2 and x = 3,
 //return 1->2->2->4->3->5. 
 
+import entity.ListNode;
+
 //给定一个单项链表与一个值x，划分这个链表使得所有比x小的node都在所有比x大的node的前面。同时注意保持节点原有的相对位置关系
 public class PartitionList {
     //四指针 一开始 left leftDM right rightDM 都是纯dummy 然后

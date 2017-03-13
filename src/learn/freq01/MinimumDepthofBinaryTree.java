@@ -4,6 +4,8 @@ package learn.freq01;
 //The minimum depth is the number of nodes along the shortest
 //path from the root node down to the nearest leaf node.
 
+import entity.TreeNode;
+
 //       1
 //      /
 //     2  是两层高度   

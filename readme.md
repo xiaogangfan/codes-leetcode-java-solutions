@@ -180,3 +180,11 @@ doc中有好几份文档，比较经典，可以参考。
     - 题解 [WordLadder.java](./src/learn/freq05/WordLadder.java)
     
 ## frequency4
+
+
+# 刷题总结
+
+## chapter02 binary search & sorted array
+这一部分都可以使用bs模板来解决问题 [二分搜索模板](./src/template/bs_template.md)
+
+- [question01:first position of target](./src/ninechapter/ch02_binary_search_and_sorted_array/Question01FirstPositionOfTarget.java) || [lintcode](http://www.lintcode.com/zh-cn/problem/first-position-of-target/)

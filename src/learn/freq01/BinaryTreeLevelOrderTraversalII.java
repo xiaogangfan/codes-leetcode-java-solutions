@@ -1,5 +1,7 @@
 package learn.freq01;
 
+import entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;

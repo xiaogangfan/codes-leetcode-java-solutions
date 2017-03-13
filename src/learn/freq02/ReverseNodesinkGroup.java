@@ -19,6 +19,8 @@ package learn.freq02;
 //比方说k=2就是2个一组反转  1-2 翻转成2-1  3-4 反转成4-3 5因为不够2个所以不反转
 //k=3就是翻转成3-2-1 后面45 不够3个不动
 
+import entity.ListNode;
+
 public class ReverseNodesinkGroup {
     //先写个helper方法 这个方法的作用是反转 从pre+1 到next-1的这一段linkedlist
     /* a linked list:  0是dummy head

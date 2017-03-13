@@ -1,5 +1,7 @@
 package learn.freq01;
 
+import entity.TreeNode;
+
 //没啥好说的 中序比一边 注意2个都是空树也返回true
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

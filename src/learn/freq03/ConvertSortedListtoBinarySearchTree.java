@@ -9,60 +9,51 @@ package learn.freq03;
 //TreeNode right=sortedListToBSTHelper(size-1-size/2); //因为LL里面已经少一个了
 //root.left=left;   root.right=right;"
 
+import entity.ListNode;
+import entity.TreeNode;
+
 public class ConvertSortedListtoBinarySearchTree {
-	private ListNode curr;
+    private ListNode curr;
 
-	public TreeNode sortedListToBST(ListNode head) {
-		int size;
-		curr = head;
-		size = getListLength(head);
-		return sortedListToBSTHelper(size);
+    public TreeNode sortedListToBST(ListNode head) {
+        int size;
+        curr = head;
+        size = getListLength(head);
+        return sortedListToBSTHelper(size);
 
-	}
+    }
 
-	// 遍历求长度
-	private int getListLength(ListNode head) {
-		int size = 0;
+    // 遍历求长度
+    private int getListLength(ListNode head) {
+        int size = 0;
 
-		while (head != null) {
-			size++;
-			head = head.next;
-		}
-		return size;
-	}
-	
-	private TreeNode sortedListToBSTHelper(int size){
-		if(size<=0){
-			return null;
-		}
-		//请注意 这个方法 肯定是递归调用所以就像inorder一样 左 中右	
-		//肯定是先执行  	TreeNode left=sortedListToBSTHelper(size/2);
-		//所以到最后肯定会1/2 是0,return null回上层  此时curr 是head
-		//root是curr(head)的值是linkedlisdlist里最小的值
-		//然后curr=curr.next
-		//其实这方法递归的逻辑和inorder一样 左中右，然后每次往中里面
+        while (head != null) {
+            size++;
+            head = head.next;
+        }
+        return size;
+    }
+
+    private TreeNode sortedListToBSTHelper(int size) {
+        if (size <= 0) {
+            return null;
+        }
+        //请注意 这个方法 肯定是递归调用所以就像inorder一样 左 中右
+        //肯定是先执行  	TreeNode left=sortedListToBSTHelper(size/2);
+        //所以到最后肯定会1/2 是0,return null回上层  此时curr 是head
+        //root是curr(head)的值是linkedlisdlist里最小的值
+        //然后curr=curr.next
+        //其实这方法递归的逻辑和inorder一样 左中右，然后每次往中里面
         //填值之后 就是curr=curr.next找下一个 
-		TreeNode left=sortedListToBSTHelper(size/2);
-		TreeNode root=new TreeNode(curr.val);
-		curr=curr.next;
-		                                       //因为LL里面已经少一个了
-		TreeNode right=sortedListToBSTHelper(size-1-size/2);
-		root.left=left;
-		root.right=right;
-		return root;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+        TreeNode left = sortedListToBSTHelper(size / 2);
+        TreeNode root = new TreeNode(curr.val);
+        curr = curr.next;
+        //因为LL里面已经少一个了
+        TreeNode right = sortedListToBSTHelper(size - 1 - size / 2);
+        root.left = left;
+        root.right = right;
+        return root;
+    }
+
+
 }

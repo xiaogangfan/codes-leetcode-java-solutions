@@ -21,6 +21,8 @@ package learn.freq03;
 // ]
 // level order 但是要一层正的输出 一层反着输出
 
+import entity.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 

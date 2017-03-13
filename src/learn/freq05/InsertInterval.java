@@ -23,7 +23,7 @@ public class InsertInterval {
     public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
         intervals.add(newInterval);
         Interval[] i = intervals.toArray(new Interval[intervals.size()]);
-        Arrays.sort(i, new IntervalComparator());
+        Arrays.sort(i, new MergeInterval.IntervalComparator());
 
         for (int j = 1; j < i.length; j++) {
             // 核心业务逻辑

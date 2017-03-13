@@ -19,6 +19,8 @@ package learn.freq03;
  *最后return root
  */
 
+import entity.TreeNode;
+
 public class ConstructBinaryTreefromInorderandPostorderTraversal {
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {

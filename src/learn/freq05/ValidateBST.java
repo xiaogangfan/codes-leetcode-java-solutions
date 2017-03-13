@@ -15,7 +15,7 @@ import entity.TreeNode;
 public class ValidateBST {
 
     //本质就是中序遍历 只不过让自己的左右子树都返回boolean
-    static int lastVisit = Integer.MIN_VALUE;
+    private int lastVisit = Integer.MIN_VALUE;
 
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
