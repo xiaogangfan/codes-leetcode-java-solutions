@@ -187,4 +187,38 @@ doc中有好几份文档，比较经典，可以参考。
 ## chapter02 binary search & sorted array
 这一部分都可以使用bs模板来解决问题 [二分搜索模板](./src/template/bs_template.md)
 
+算法面试中如果需要优化O(n)的时间复杂度，那么只能是O(logn)的二分法
+
+**二分搜索四点要素**:
+1. start + 1 < end
+2. start + (end - start) / 2
+3. A[mid] ==, <, >
+4. A[start] A[end] ? target
+
 - [question01:first position of target](./src/ninechapter/ch02_binary_search_and_sorted_array/Question01FirstPositionOfTarget.java) || [lintcode](http://www.lintcode.com/zh-cn/problem/first-position-of-target/)
+- [question02:search for a range](./src/ninechapter/ch02_binary_search_and_sorted_array/Question02SearchForARange.java)
+- [question03:search insert position](./src/ninechapter/ch02_binary_search_and_sorted_array/Question03SearchInsertPosition.java)
+- [question04:search a 2D matrix](./src/ninechapter/ch02_binary_search_and_sorted_array/Question04SearchA2DMatrix.java)
+- [question05:search a 2D matrix ii](./src/ninechapter/ch02_binary_search_and_sorted_array/Question05SearchA2DMatrixII.java)
+- [question06:first bad version](./src/ninechapter/ch02_binary_search_and_sorted_array/Question06FirstBadVersion.java)
+- [question07:find peak element](./src/ninechapter/ch02_binary_search_and_sorted_array/Question07FindPeakElement.java)
+- [question08:find minimum in rotated sorted array](./src/ninechapter/ch02_binary_search_and_sorted_array/Question08FindMinimumInRotatedSortedArray.java)
+- [question09:find minimum in rotated sorted array ii](./src/ninechapter/ch02_binary_search_and_sorted_array/Question08FindMinimumInRotatedSortedArrayII.java)
+- [question10:search in rotated sorted array](./src/ninechapter/ch02_binary_search_and_sorted_array/Question10SearchInRotatedSortedArray.java)
+- [question11:search in rotated sorted array ii](./src/ninechapter/ch02_binary_search_and_sorted_array/Question10SearchInRotatedSortedArrayII.java)
+- [question12:median of two sorted arrays](./src/ninechapter/ch02_binary_search_and_sorted_array/Question12MedianOfTwoSortedArrays.java)
+- [question13:recover rotated sorted array](./src/ninechapter/ch02_binary_search_and_sorted_array/Question13RecoverRotatedSortedArray.java)
+- [question14:rotate string](./src/ninechapter/ch02_binary_search_and_sorted_array/Question14RotateString.java)
+- [question15:reverse words in a string](./src/ninechapter/ch02_binary_search_and_sorted_array/Question15ReverseWordsInAString.java)
+
+**总结**
+1. Binary Search Template (4 key points)
+2. Rotated Sorted Array
+    1. Find Minimum
+    2. Find Target
+    3. why o(n) with duplicates ?
+3. Find Median in Two Sorted Array
+find kth
+4. Reverse in 3 steps
+
+

@@ -10,7 +10,7 @@ package ninechapter.ch02_binary_search_and_sorted_array;
  * 为何会影响？
  * 写出一个函数判断给定的目标值是否出现在数组中。
  */
-public class Question05SearchInRotatedSortedII {
+public class Question11SearchInRotatedSortedArrayII {
     // 这个问题在面试中不会让实现完整程序
     // 只需要举出能够最坏情况的数据是 [1,1,1,1... 1] 里有一个0即可。
     // 在这种情况下是无法使用二分法的，复杂度是O(n)
