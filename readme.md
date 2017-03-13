@@ -212,13 +212,13 @@ doc中有好几份文档，比较经典，可以参考。
 - [question15:reverse words in a string](./src/ninechapter/ch02_binary_search_and_sorted_array/Question15ReverseWordsInAString.java)
 
 **总结**
+
 1. Binary Search Template (4 key points)
 2. Rotated Sorted Array
     1. Find Minimum
     2. Find Target
     3. why o(n) with duplicates ?
-3. Find Median in Two Sorted Array
-find kth
+3. Find Median in Two Sorted Array **find kth**
 4. Reverse in 3 steps
 
 
