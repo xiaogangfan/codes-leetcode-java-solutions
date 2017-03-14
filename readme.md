@@ -277,3 +277,23 @@ doc中有好几份文档，比较经典，可以参考。
 - substring with concatenation of all words
 - letter combination of a phone number
 
+## chapter05 linked list
+
+需要掌握的技能
+- insert a node in sorted list
+- **remove a node from linked list**
+- **reverse a linked list**
+- merge two linked list
+- find the middle of a linked list
+
+**Dummy Node**
+1. remove duplicates from sorted list i,ii
+2. merge two sorted lists
+3. partition list
+4. reverse linked list ii
+
+**Two Pointer **
+
+## chapter06 dynamic programming
+
+DP的本质就是 **记忆化搜索**
