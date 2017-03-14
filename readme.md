@@ -255,7 +255,25 @@ doc中有好几份文档，比较经典，可以参考。
 - [question03 balanced binary tree](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question03BalancedBinaryTree.java)
 - [question04 binary tree maximum path sum](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question04BinaryTreeMaximumPathSum.java)
 
+## chapter04 permutation & subset
 
+排列组合问题总结
+- Arrays.sort 去重
+- result.add 什么时候输出结果
+- if(condition) continue 什么情况跳过
+- 回溯，关键是在递归完了，需要还原items的状态
 
-
+排列组合适用题目
+- word break ii
+- palindrome partition
+- path sum ii
+- restore ip address
+- subsets ii
+- subsets
+- combinations
+- permutations ii
+- permutation
+- combination sum ii
+- substring with concatenation of all words
+- letter combination of a phone number
 
