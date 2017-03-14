@@ -26,11 +26,11 @@ public class Solution{
             // do something and return;
         }
         
-        // Divide
+        // Divide 问题分解
         ResultType left = traversal(root.left);
         ResultType right = traversal(root.right);
         
-        // Conquer
+        // Conquer 问题合并
         ResultType result = Merge from left and right
         return result;
     }

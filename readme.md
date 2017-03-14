@@ -184,6 +184,22 @@ doc中有好几份文档，比较经典，可以参考。
 
 # 刷题总结
 
+## chapter01 基础编程面试总结
+**面试考察的编程基本功**
+
+- 程序风格(缩进,括号,变量名)
+- Coding习惯(异常检查,边界处理)
+- 沟通(让面试官时刻明白你的意图)
+- 测试(主动写出合理的Testcase)
+
+**算法其实很简单**
+
+- 在刷题时,总结、归类相似题目
+- 找出适合同一类题目的模板程序
+
+**排列组合模板**
+
+
 ## chapter02 binary search & sorted array
 这一部分都可以使用bs模板来解决问题 [二分搜索模板](./src/template/bs_template.md)
 
@@ -220,5 +236,26 @@ doc中有好几份文档，比较经典，可以参考。
     3. why o(n) with duplicates ?
 3. Find Median in Two Sorted Array **find kth**
 4. Reverse in 3 steps
+
+## chapter03 Binary Tree & Divide Conquer & DFS/BFS
+
+*任何二叉树的问题都可以尝试使用分治法解决*
+
+二叉树的遍历问题，递归转为非递归的写法都是使用人工栈模拟系统栈的方式
+
+宽度优先遍历的方法
+- 2 Queues
+- 1 Queues + Dummy Node
+- 1 Queues(best)
+
+**参考模板** [dfs_template](./src/template/dfs_template.md)
+
+- [question01 binary tree preorder traversal](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question01BinaryTreePreorderTraversal.java)
+- [question02 maximum depth of binary tree](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question02MaximumDepthOfBinaryTree.java)
+- [question03 balanced binary tree](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question03BalancedBinaryTree.java)
+- [question04 binary tree maximum path sum](./src/ninechapter/ch03_binary_tree_and_divide_conquer_and_dfs_bfs/Question04BinaryTreeMaximumPathSum.java)
+
+
+
 
 
