@@ -18,7 +18,7 @@ public class Solution {
 			results.add(new ArrayList<Integer>(path));
 			return;
 		}
-		for(int =/*?*/;i<numm.length;i++){
+		for(int =/*?*/;i<num.length;i++){
 			//提议要求要跳过那些条件
 			path.add(num[i]);
 			permuteHelper(results, path, num);
